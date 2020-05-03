@@ -1,6 +1,6 @@
 const express = require('express')
 const helmet = require('helmet')
-const router = require('./data/recipe-router')
+const router = require('./projectRouter')
 
 const server = express()
 const port = process.env.PORT || 7777
